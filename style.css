@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+.header img {
+  width: 100px;
+}
+.header nav {
+  display: flex;
+  gap: 15px;
+  margin-left: -20px;
+}
+.header nav a {
+  text-decoration: none;
+  color: #0073b1;
+  font-weight: bold;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+.welcome {
+  max-width: 600px;
+}
+.welcome h1 {
+  font-size: 36px;
+  color: #cc402d;
+}
+.welcome p {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0;
+}
+.btn {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+.btn-google {
+  background-color: #fff;
+  color: #666;
+  border-color: #ddd;
+}
+.btn-email {
+  background-color: #0073b1;
+  color: #fff;
+}
+.terms {
+  font-size: 2px;
+  color: #999;
+}
+.signup {
+  margin-top: 20px;
+}
+.signup a {
+  text-decoration: none;
+  color: #0073b1;
+  font-weight: bold;
+}
+.explore {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 50px 20px;
+  text-align: center;
+}
+.explore h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.explore p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #666;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.tag {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 14px;
+  color: #0073b1;
+}
