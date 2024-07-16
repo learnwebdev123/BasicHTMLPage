@@ -28,6 +28,9 @@ body {
   color: #0073b1;
   font-weight: bold;
 }
+header nav a:hover {
+  color: #005582;
+}
 .main {
   display: flex;
   justify-content: space-between;
